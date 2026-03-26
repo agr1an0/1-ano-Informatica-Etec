@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(17, 0, 112);
+}
+img{
+    margin-top: 5px;
+    border: solid rgb(255, 255, 0) 3px;
+     width: 170px;
+    height: 170px;
+}
+.imagem{
+    align-items: top;
+}
+p{
+    background-color: rgb(42, 71, 165);
+    color: white;
+}
+.texto {
+    border: solid rgb(255, 255, 0, 0.986);
+}
+a {
+    color: yellow;
+}
+
+@media (width < 541px) {
+    .texto {
+        max-width: 40vw;
+        max-height: 60vh;
+        float: inline-end;
+        overflow: auto;
+    }
+}
+@media (width > 541px) {
+    img {
+        height: 100px
+    }
+    .texto {
+        width: 40vw;
+        font-size: 20px;
+        max-height: 47vh;
+        overflow: auto;
+    }
+}

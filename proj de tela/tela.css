@@ -1,0 +1,80 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: blueviolet;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.perfil {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    left: 2vw;
+    top: 3vh;
+    display: flex;
+}
+.perfil img {
+    height: 6vh;
+}
+
+.usuario {
+    position: relative;
+    top: 1vh;
+    right: 1vw;
+}
+table {
+    background-color: gainsboro;
+    border: 2px solid black;
+    border-collapse: collapse;
+    max-width: 40vh;
+    overflow: auto;
+    margin-bottom: 2vh;
+}
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ul {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table input {
+ width: 15vw;   
+}
+.cadastros {
+    width: min-content;
+    position: relative;
+    left: 1vw;
+    top: 2vh;
+}
+.entrada {
+    width: min-content;
+    position: relative;
+    left: 1vw;
+    top: 2vh;
+}
+.controles {
+    position: relative;
+    float: right;
+    right: 13vw;
+    justify-items: center;
+}
+.controles img {
+    width: 250px;
+}
+.controles h3 {
+    justify-self: center;
+}
+.controles h1 {
+    justify-self: center;
+}
+.entrada {
+    position: relative;
+}
